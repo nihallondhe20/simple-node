@@ -1,4 +1,4 @@
-FROM 21-alpine3.18
+FROM node
 WORKDIR /app
 COPY . ./
 RUN npm install
